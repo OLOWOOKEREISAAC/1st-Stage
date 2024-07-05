@@ -1,6 +1,6 @@
 const d = new Date();
 const day = d.getUTCDay();
-const time = d.getUTCHours() + ':' + d.getUTCMinutes();
+const time = 'UTC Time: '+d.getUTCHours() + ':' + d.getUTCMinutes();
 
 const weekdays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
 
@@ -9,5 +9,5 @@ timePlaceholder.innerHTML = time;
  
 
 let dayPlaceHolder = document.querySelector('[data-testid="currentDay"]');
-dayPlaceHolder.innerHTML = weekdays[day];
+dayPlaceHolder.innerHTML = 'Day: ' + weekdays[day];
 
