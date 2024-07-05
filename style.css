@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(43, 42, 42);
+  color: rgb(233, 232, 232);
+  font-family: "Times New Roman", Times, serif;
+}
+
+img {
+  border: 6px solid rgb(192, 188, 188);
+  border-radius: 5px;
+}
+
+.content {
+  max-width: 92%;
+  margin: 0px auto;
+  text-align: center;
+}
+
+.links {
+  max-height: 100px;
+  padding: 25px 0;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid rgb(233, 232, 232);
+}
+
+.links a {
+  text-decoration: none;
+  color: rgb(233, 232, 232);
+}
+
+.biodata {
+  margin: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: end;
+  gap: 55px;
+}
+
+.biodata .info{
+    text-align: left;
+    align-content: center;
+    font-size: 40px;
+    width: 100%;
+}
+
+.biodata p { padding: 5px 0px; }
+
+.goals > *{
+    padding: 5px 0;
+}
+
+.goals  li{
+    font: 200px;
+    line-height: 25px;
+}
+
+.goals ul {
+  text-align: center;
+  list-style-position: inside;
+}
+
+.goals h1{
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+.goals ul{
+    margin-bottom: 20px; 
+}
